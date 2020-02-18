@@ -8,4 +8,7 @@ const userRouter = require('./routes/user.js');
 const mainPage = require('./views/main.js');
 const pages = require('./views/index.js');
 
-app.use(morgan('dev'))
+app.use(morgan('dev'));
+app.use(express.static('./static')); //reads css and html files -- or any static files
+
+app.use(express.urlencoded

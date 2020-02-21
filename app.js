@@ -11,4 +11,9 @@ const pages = require('./views/index.js');
 app.use(morgan('dev'));
 app.use(express.static('./static')); //reads css and html files -- or any static files
 
-app.use(express.urlencoded
+app.use(express.urlencoded({ extended: false }));
+
+app.use('/wiki', wikiRouter);
+app.use('/user', userRouter);
+
+app.get

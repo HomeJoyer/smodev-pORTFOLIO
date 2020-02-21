@@ -16,4 +16,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/wiki', wikiRouter);
 app.use('/user', userRouter);
 
-app.get
+app.get('/', (req, res, next) => {
+  res.send(layout(mainPage(pages)));
+});
+
+models.db.authenticate().then(() => {
+  console.log('connected to the

@@ -21,4 +21,12 @@ app.get('/', (req, res, next) => {
 });
 
 models.db.authenticate().then(() => {
-  console.log('connected to the
+  console.log('connected to the database');
+});
+
+const PORT = 1337;
+
+const init = async () => {
+  await models.db.sync({ force: true });
+
+  app.listen

@@ -10,4 +10,11 @@ const Page = db.define('page', {
   },
   slug: {
     type: Sequelize.STRING,
-    allowNull:
+    allowNull: false,
+  },
+  content: {
+    type: Sequelize.TEXT,
+    allowNull: false,
+  },
+  status: {
+    type: Sequelize.ENUM('open, closed'),

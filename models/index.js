@@ -18,3 +18,10 @@ const Page = db.define('page', {
   },
   status: {
     type: Sequelize.ENUM('open, closed'),
+  },
+});
+
+const pages = Page.findAll();
+
+Page.beforeValidate((pageInstance, optionsObject) => {
+  pageInstance.sl

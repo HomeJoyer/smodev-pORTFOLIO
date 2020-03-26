@@ -28,4 +28,10 @@ Page.beforeValidate((pageInstance, optionsObject) => {
   console.log(pageInstance.slug);
 });
 
-con
+const User = db.define('user', {
+  name: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+  email: {
+    type: 

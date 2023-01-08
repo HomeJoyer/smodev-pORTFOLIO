@@ -8,4 +8,7 @@ module.exports = () =>
     <form method="POST" action="/wiki/">
       <div class="form-group">
         <label for="author" class="col-sm-2 control-label">Author's Name</label>
-        <div class
+        <div class="col-sm-10">
+          <input id="author" name="author" type="text" class="form-control" />
+        </div>
+      </div>

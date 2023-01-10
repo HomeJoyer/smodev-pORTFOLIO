@@ -18,4 +18,8 @@ module.exports = () =>
         <div class="col-sm-10">
           <input id="email" name="email" type="text" class="form-control" />
         </div>
-    
+      </div>
+
+      <div class="form-group">
+        <label for="title" class="col-sm-2 control-label">Page Title</label>
+ 

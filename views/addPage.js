@@ -29,4 +29,5 @@ module.exports = () =>
 
       <div class="form-group">
         <label for="content" class="col-sm-2 control-label">Page Content</label>
-   
+        <div class="col-sm-10">
+          <input id="content" name="content" type="text" class="form-control" />

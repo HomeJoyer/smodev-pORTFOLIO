@@ -31,3 +31,8 @@ module.exports = () =>
         <label for="content" class="col-sm-2 control-label">Page Content</label>
         <div class="col-sm-10">
           <input id="content" name="content" type="text" class="form-control" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="status" class="col-sm-2 control-label">Pa

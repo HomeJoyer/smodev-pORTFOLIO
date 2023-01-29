@@ -42,4 +42,7 @@ module.exports = () =>
       </div>
 
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" 
+        <button type="submit" class="btn btn-primary">submit</button>
+      </div>
+    </form>
+  `);

@@ -8,4 +8,7 @@ module.exports = (page, author) => layout(html`
 
     <div>PLACEHOLDER FOR AUTHOR NAME FIELD</div>
     
-    <div
+    <div>PLACEHOLDER FOR AUTHOR EMAIL FIELD</div>
+
+    <div class="form-group">
+      <label for="title" class="col-sm-2 co

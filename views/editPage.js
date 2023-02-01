@@ -13,4 +13,8 @@ module.exports = (page, author) => layout(html`
     <div class="form-group">
       <label for="title" class="col-sm-2 control-label">Page Title</label>
       <div class="col-sm-10">
-        <input name="title" type="text" class="fo
+        <input name="title" type="text" class="form-control" value="${page.title}"/>
+      </div>
+    </div>
+
+    <div>PLACEHOLDER FOR PAGE CONTENT TEXTAREA FIELD

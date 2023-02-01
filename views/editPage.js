@@ -11,4 +11,6 @@ module.exports = (page, author) => layout(html`
     <div>PLACEHOLDER FOR AUTHOR EMAIL FIELD</div>
 
     <div class="form-group">
-      <label for="title" class="col-sm-2 co
+      <label for="title" class="col-sm-2 control-label">Page Title</label>
+      <div class="col-sm-10">
+        <input name="title" type="text" class="fo

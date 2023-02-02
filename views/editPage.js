@@ -22,4 +22,6 @@ module.exports = (page, author) => layout(html`
     <div class="form-group">
       <label for="content" class="col-sm-2 control-label">Status</label>
       <div class="col-sm-10">
- 
+        <select name="status">
+          <option ${page.status == "open" ? "selected" : ""}>open</option>
+  

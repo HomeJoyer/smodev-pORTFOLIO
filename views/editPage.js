@@ -17,4 +17,9 @@ module.exports = (page, author) => layout(html`
       </div>
     </div>
 
-    <div>PLACEHOLDER FOR PAGE CONTENT TEXTAREA FIELD
+    <div>PLACEHOLDER FOR PAGE CONTENT TEXTAREA FIELD</div>
+
+    <div class="form-group">
+      <label for="content" class="col-sm-2 control-label">Status</label>
+      <div class="col-sm-10">
+ 

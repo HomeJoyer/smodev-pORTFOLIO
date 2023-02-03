@@ -24,4 +24,6 @@ module.exports = (page, author) => layout(html`
       <div class="col-sm-10">
         <select name="status">
           <option ${page.status == "open" ? "selected" : ""}>open</option>
-  
+          <option ${page.status == "closed" ? "selected" : ""}>closed</option>
+        </select>
+   

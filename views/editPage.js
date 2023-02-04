@@ -26,4 +26,8 @@ module.exports = (page, author) => layout(html`
           <option ${page.status == "open" ? "selected" : ""}>open</option>
           <option ${page.status == "closed" ? "selected" : ""}>closed</option>
         </select>
-   
+      </div>
+    </div>
+
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary"

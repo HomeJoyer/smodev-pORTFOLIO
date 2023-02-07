@@ -30,4 +30,7 @@ module.exports = (page, author) => layout(html`
     </div>
 
     <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-primary"
+        <button type="submit" class="btn btn-primary">submit</button>
+    </div>
+  </form>
+`);

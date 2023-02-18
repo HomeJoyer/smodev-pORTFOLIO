@@ -8,4 +8,7 @@ module.exports = (content) => html`<!DOCTYPE html>
       <link href="/stylesheets/style.css" rel="stylesheet">
     </head>
     <body>
-      <div class="navbar navbar-fixed-top navbar-inverse" role="
+      <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button"

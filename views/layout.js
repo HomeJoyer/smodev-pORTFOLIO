@@ -11,4 +11,5 @@ module.exports = (content) => html`<!DOCTYPE html>
       <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button type="button"
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-items">
+              <span class="sr-only">Toggle n

@@ -15,4 +15,6 @@ module.exports = (content) => html`<!DOCTYPE html>
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-          
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/wiki">wikistack</a>

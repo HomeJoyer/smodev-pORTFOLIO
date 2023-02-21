@@ -20,4 +20,6 @@ module.exports = (content) => html`<!DOCTYPE html>
             <a class="navbar-brand" href="/wiki">wikistack</a>
           </div>
           <div id="nav-items" class="collapse navbar-collapse">
-            <ul class="nav navb
+            <ul class="nav navbar-nav">
+              <li><a href="/wiki/">index</a></li>
+              <li><a href="/wiki/add">write<

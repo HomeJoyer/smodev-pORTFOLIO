@@ -32,4 +32,8 @@ module.exports = (content) => html`<!DOCTYPE html>
         $${content}
       </div>
       <hr/>
-      <div id="footer" class="container text-m
+      <div id="footer" class="container text-muted">
+        WIKISTACK by Fullstack Academy
+      </div>
+    </body>
+  </html>`;

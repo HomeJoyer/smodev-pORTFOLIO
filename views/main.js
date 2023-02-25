@@ -7,4 +7,9 @@ module.exports = pages =>
     <hr />
     <form method="GET" action="/wiki/search">
       <input type="text" name="search" />
-      <button type="submit">
+      <button type="submit">Search</button>
+    </form>
+    <hr />
+    <ul class="list-unstyled">
+      <ul>
+        ${pages.ti

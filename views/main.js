@@ -5,4 +5,6 @@ module.exports = pages =>
   layout(html`
     <h3>Pages</h3>
     <hr />
-  
+    <form method="GET" action="/wiki/search">
+      <input type="text" name="search" />
+      <button type="submit">

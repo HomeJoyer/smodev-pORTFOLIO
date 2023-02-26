@@ -12,4 +12,7 @@ module.exports = pages =>
     <hr />
     <ul class="list-unstyled">
       <ul>
-        ${pages.ti
+        ${pages.title}
+      </ul>
+    </ul>
+  `);

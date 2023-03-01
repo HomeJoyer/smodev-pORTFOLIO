@@ -6,4 +6,9 @@ module.exports = (user, pages) => layout(html`
   <hr>
   <form method="GET" action="/wiki/search">
     <input type="text" name="search" />
-    <button type="submit">Search</butt
+    <button type="submit">Search</button>
+  </form>
+  <hr>
+  <ul class="list-unstyled">
+    <ul>
+      ${pages.map(page => html`<li><a href="/wiki/${

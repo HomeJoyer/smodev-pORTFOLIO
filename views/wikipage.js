@@ -9,4 +9,6 @@ module.exports = (page, author) => layout(html`
   <hr/>
   <div class="page-body">${page.content}</div>
   <hr/>
-  <a href="/wiki/${page.slug}/edit" class="btn btn-primary">
+  <a href="/wiki/${page.slug}/edit" class="btn btn-primary">edit this page</a>
+  <a href="/wiki/${page.slug}/delete" class="btn btn-danger">delete this page</a>
+`);
